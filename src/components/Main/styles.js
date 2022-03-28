@@ -11,4 +11,8 @@ export const StyledMain = styled.main`
   /* background-color: yellow; */
   width: 100%;
   height: 100%;
+
+  > div {
+    height: 70vh;
+  }
 `

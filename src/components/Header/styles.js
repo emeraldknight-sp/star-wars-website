@@ -23,7 +23,7 @@ export const StyledImg = styled.img`
   }
 
   @media (min-width: 1024px) {
-    width: 15%;
+    width: 10%;
   }
 `
 
@@ -41,7 +41,7 @@ export const StyledMenu = styled.div`
     input {
       padding: 10px;
       border: 1px solid var(--black);
-      border-radius: 5px 0 0 5px;
+      border-radius: 5px;
       outline: none;
     }
 
@@ -59,6 +59,11 @@ export const StyledMenu = styled.div`
   }
 
   button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow);
     border: 1px solid var(--black);
     border-radius: 5px;
     cursor: pointer;
