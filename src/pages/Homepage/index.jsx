@@ -15,15 +15,17 @@ const Homepage = () => {
     <>
       <Header />
       <Main>
-        <StyledFrame>
-          {newListPlanets.length > 0
-            ? newListPlanets.map((planet, index) => (
+        <div>
+          <StyledFrame>
+            {newListPlanets.length > 0
+              ? newListPlanets.map((planet, index) => (
                 <PlanetsCard key={index} planet={planet} />
-              ))
-            : planets.map((planet, index) => (
-                <PlanetsCard key={index} planet={planet} />
-              ))}
-        </StyledFrame>
+                ))
+                : planets.map((planet, index) => (
+                  <PlanetsCard key={index} planet={planet} />
+                  ))}
+          </StyledFrame>
+        </div>
       </Main>
       <Footer />
     </>
