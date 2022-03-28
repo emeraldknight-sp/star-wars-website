@@ -25,6 +25,6 @@ export const StyledCard = styled.div`
   }
 
   @media (min-width: 1000px) {
-    max-width: 300px;
+    width: 250px;
   }
 `
