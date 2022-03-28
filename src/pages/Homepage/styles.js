@@ -10,12 +10,11 @@ export const StyledFrame = styled.div`
   width: 100%;
   margin: 20px 0;
 
-
   @media (min-width: 768px) {
     justify-content: space-between;
   }
 
   @media (min-width: 1000px) {
-    justify-content: flex-start;
+    justify-content: center;
   }
 `
