@@ -61,6 +61,7 @@ body, select, input, button, textarea {
   --black: #C1B7B7;
   --vine: #5A0300;
   --blue: #12151D;
+	--yellow: #F9C10B;
 
   --fontfamily: 'Outfit', sans-serif;
 
